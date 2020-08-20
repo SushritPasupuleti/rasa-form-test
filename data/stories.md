@@ -9,6 +9,7 @@
   - utter_ask_otp
 * inform_otp
   - verify_OTP
+  - slot{"authenticated": True}
 
 ## sad path 1
 * greet
@@ -24,6 +25,7 @@
   - utter_ask_otp
 * inform_otp
   - verify_OTP
+  - slot{"authenticated": True}
 
 ## sad path 2
 * greet
