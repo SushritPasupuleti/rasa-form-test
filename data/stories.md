@@ -5,8 +5,10 @@
   - utter_happy
   - utter_ask_email
 * inform_email
+  - send_OTP
   - utter_ask_otp
 * inform_otp
+  - verify_otp
 
 ## sad path 1
 * greet
@@ -18,8 +20,10 @@
   - utter_happy
   - utter_ask_email
 * inform_email
+  - send_OTP
   - utter_ask_otp
 * inform_otp
+  - verify_otp
 
 ## sad path 2
 * greet

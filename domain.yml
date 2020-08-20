@@ -18,6 +18,8 @@ slots:
       type: text
     otp:
       type: text
+    authenticated:
+      type: bool
 
 responses:
   utter_greet:
@@ -45,8 +47,9 @@ responses:
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
 
-action:
+actions:
   - send_OTP
+  - verify_OTP
 
 session_config:
   session_expiration_time: 60
