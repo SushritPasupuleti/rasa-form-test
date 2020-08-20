@@ -6,10 +6,18 @@ intents:
   - mood_great
   - mood_unhappy
   - bot_challenge
+  - inform_email
+  - inform_otp
 
 entities: 
   - email
   - otp
+
+slots:
+    email:
+      type: text
+    otp:
+      type: text
 
 responses:
   utter_greet:
@@ -18,6 +26,12 @@ responses:
   utter_cheer_up:
   - text: "Here is something to cheer you up:"
     image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_ask_email:
+  - text: "let me know your email so that I can start the process :D"
+
+  utter_ask_otp:
+  - text: "Enter the OTP you recieved on {email}"
 
   utter_did_that_help:
   - text: "Did that help you?"
@@ -30,6 +44,9 @@ responses:
 
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
+
+action:
+  - send_OTP
 
 session_config:
   session_expiration_time: 60

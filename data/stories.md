@@ -3,6 +3,10 @@
   - utter_greet
 * mood_great
   - utter_happy
+  - utter_ask_email
+* inform_email
+  - utter_ask_otp
+* inform_otp
 
 ## sad path 1
 * greet
@@ -12,6 +16,10 @@
   - utter_did_that_help
 * affirm
   - utter_happy
+  - utter_ask_email
+* inform_email
+  - utter_ask_otp
+* inform_otp
 
 ## sad path 2
 * greet

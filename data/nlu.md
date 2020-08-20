@@ -55,6 +55,14 @@
 - am I talking to a bot?
 - am I talking to a human?
 
+## intent:inform_email
+- my email is [sushrit.pk21@gmail.com](email)
+- [batman@gmail.com](email)
+
+## intent:inform_otp
+- my otp is [123456](otp)
+- [456789](otp)
+
 ## regex:email
 - ([a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\\.[a-zA-Z0-9-.]+)
 
