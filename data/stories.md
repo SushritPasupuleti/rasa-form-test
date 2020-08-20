@@ -8,7 +8,7 @@
   - send_OTP
   - utter_ask_otp
 * inform_otp
-  - verify_otp
+  - verify_OTP
 
 ## sad path 1
 * greet
@@ -23,7 +23,7 @@
   - send_OTP
   - utter_ask_otp
 * inform_otp
-  - verify_otp
+  - verify_OTP
 
 ## sad path 2
 * greet
