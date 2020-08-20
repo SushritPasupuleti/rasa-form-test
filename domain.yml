@@ -7,6 +7,10 @@ intents:
   - mood_unhappy
   - bot_challenge
 
+entities: 
+  - email
+  - otp
+
 responses:
   utter_greet:
   - text: "Hey! How are you?"

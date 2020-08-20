@@ -54,3 +54,9 @@
 - are you a human?
 - am I talking to a bot?
 - am I talking to a human?
+
+## regex:email
+- ([a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\\.[a-zA-Z0-9-.]+)
+
+## regex:otp
+- [0-9]{6}
